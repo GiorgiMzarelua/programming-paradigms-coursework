@@ -1,69 +1,86 @@
-# Programming Paradigms - CS206004
+# Programming Paradigms Course - CS206004
 
-Course assignments from the Programming Paradigms course (CS206004) at Free University of Tbilisi, covering multiple programming paradigms and fundamental computer science concepts.
+This repository contains my coursework from the Programming Paradigms course (CS206004) at Free University of Tbilisi. The course explores different programming paradigms and their practical applications in solving computational problems.
 
-## Course Overview
+## About the Course
 
-This repository contains implementations across different programming paradigms:
+Throughout this course, I worked with multiple programming paradigms and languages:
 
-* **Procedural Programming** (C)
-* **Object-Oriented Programming** (C++)
-* **Functional Programming** (Scheme)
-* **Dynamic Programming** (Python)
+* **C Programming** - Low-level systems programming and memory management
+* **C++ Programming** - Object-oriented design and generic programming
+* **Scheme (Functional)** - Functional programming concepts and recursion
+* **Python** - Dynamic programming and algorithm implementation
 
-The course also covered concurrent programming concepts in lectures.
+The curriculum also included theoretical coverage of concurrent programming patterns.
 
-**Note:** Assignments 5 and 6 were skipped by the lecturer during this academic year.
+> **Note:** Assignments 5 and 6 were not assigned during the 2024-2025 academic year.
 
-## Assignments
+## Assignment Overview
 
-| # | Title | Language | Key Concepts |
-|---|-------|----------|--------------|
-| 1 | **Random Sentence Generator** | C++ | Context-free grammars, recursion, memory management |
-| 2 | **Six Degrees of Separation** | C++ | Graph algorithms, BFS, binary file parsing |
-| 3 | **Custom Vector and HashSet** | C | Generic programming, hash tables, function pointers |
-| 4 | **RSS News Search Engine** | C | Web scraping, inverted index, networking |
-| 7 | **Where Am I? - Trilateration** | Scheme | Functional programming, geometric algorithms |
-| 8 | **DNA Sequence Alignment** | Python | Dynamic programming, Needleman-Wunsch algorithm |
+| Assignment | Topic | Language | Core Concepts |
+|:----------:|-------|:--------:|---------------|
+| 1 | **Random Sentence Generator** | C++ | Context-free grammar parsing, recursive generation, dynamic memory |
+| 2 | **Six Degrees** | C++ | Graph traversal (BFS), shortest path algorithms, file I/O |
+| 3 | **Vector & HashSet Implementation** | C | Generic data structures, void pointers, hash functions |
+| 4 | **RSS News Aggregator** | C | Network programming, XML parsing, search indexing |
+| 7 | **Trilateration Algorithm** | Scheme | Functional paradigm, geometric calculations, immutability |
+| 8 | **Sequence Alignment** | Python | Dynamic programming, bioinformatics, Needleman-Wunsch |
 
-## Technologies & Tools
+## Tech Stack
 
-* **Languages:** C, C++, Scheme (Kawa), Python
-* **Build Tools:** Make, GCC
-* **Testing:** Valgrind, custom test suites
-* **Libraries:** libcurl, STL
+**Languages**
+- C (C99 standard)
+- C++ (C++11 features)
+- Scheme (Kawa implementation)
+- Python 3
 
-## Learning Outcomes
+**Development Tools**
+- GNU Make for build automation
+- GCC/G++ compilers
+- Valgrind for memory debugging
+- Standard Template Library (STL)
 
-* Low-level memory management and system programming
-* Custom data structure implementations
-* Graph algorithms and dynamic programming
-* Functional programming principles
-* Real-world applications: web scraping, bioinformatics, search engines
+**External Libraries**
+- libcurl for HTTP requests
+- Standard C/C++ libraries
 
-## Building and Running
+## Key Takeaways
 
-Each assignment has its own build system and instructions. Navigate to the specific assignment directory and refer to its README for details.
+Throughout these assignments, I developed skills in:
+
+- Manual memory management and avoiding memory leaks
+- Implementing generic data structures from scratch
+- Working with different programming paradigms
+- Applying classic algorithms (BFS, dynamic programming)
+- Building practical applications (search engines, alignment tools)
+
+## Running the Projects
+
+Each assignment directory contains its own build configuration. To compile and run:
 
 ```bash
-cd assn-XX
-# See individual README for build/run instructions
-```
+cd assn-0X  # Replace X with assignment number
+make        # Build the project
+# Run according to assignment-specific instructions
 
-## Course Information
+Refer to individual assignment directories for detailed build and usage instructions.
 
-* **Course:** Programming Paradigms (CS206004)
-* **Institution:** Free University of Tbilisi
-* **Academic Year:** 2024-2025
+## Academic Info
 
-## Repository Structure
+- **Course Code:** CS206004
+- **University:** Free University of Tbilisi
+- **Year:** 2024-2025
+- **Instructor:** Course lecturer at FreeUni
 
-```
-.
-├── assn-01/    # Random Sentence Generator (C++)
-├── assn-02/    # Six Degrees of Separation (C++)
-├── assn-03/    # Vector & HashSet (C)
-├── assn-04/    # RSS News Search (C)
-├── assn-07/    # Trilateration (Scheme)
-└── assn-08/    # DNA Alignment (Python)
-```
+## Project Structure
+
+programming-paradigms-coursework/
+│
+├── assn-01/          # Random Sentence Generator (C++)
+├── assn-02/          # Six Degrees of Separation (C++)
+├── assn-03/          # Custom Vector & HashSet (C)
+├── assn-04/          # RSS News Search Engine (C)
+├── assn-07/          # Trilateration Problem (Scheme)
+└── assn-08/          # DNA Alignment Algorithm (Python)
+
+
